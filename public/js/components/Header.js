@@ -45,3 +45,8 @@ function Header(props){
     </nav>
   );
 }
+
+Header.propTypes = {
+    cart: PropTypes.object,
+    changeView: PropTypes.func
+};

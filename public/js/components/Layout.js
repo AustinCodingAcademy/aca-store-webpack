@@ -31,3 +31,8 @@ function Layout(props){
         </div>
     );
 }
+
+Layout.propTypes = {
+    shoppingCart: PropTypes.array,
+    changeView: PropTypes.func
+};

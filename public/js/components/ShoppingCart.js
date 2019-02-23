@@ -8,3 +8,7 @@ function ShoppingCart(props){
       </div>
     )
 }
+
+ShoppingCart.propTypes = {
+    cart: PropTypes.array
+  };

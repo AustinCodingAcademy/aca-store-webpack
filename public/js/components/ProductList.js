@@ -18,3 +18,7 @@ function ProductList(props){
       </div>
     )
 }
+
+ProductList.propTypes = {
+    products: PropTypes.array
+  };
