@@ -47,6 +47,6 @@ function Header(props){
 }
 
 Header.propTypes = {
-    cart: PropTypes.object,
+    cart: PropTypes.array,
     changeView: PropTypes.func
 };
